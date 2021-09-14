@@ -6,8 +6,8 @@
 }
 
 nav {
-  background-color: #f3df84;
-  color: black;
+  background-color: #f0dd87;
+  color: rgb(175, 37, 37);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 60%;
