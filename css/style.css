@@ -50,6 +50,7 @@ nav .header_right {
 
 nav .header_right .nav-heading {
   text-decoration: underline;
+  text-transform: capitalize;
   display: inline-block;
   font-size: xx-large;
   padding: 3% 0%;
