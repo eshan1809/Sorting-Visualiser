@@ -10,8 +10,6 @@ var margin_size;
 var cont = document.getElementById("array_container");
 cont.style = "flex-direction:row";
 
-//Array generation and updation.
-
 inp_gen.addEventListener("click", generate_array);
 inp_as.addEventListener("input", update_array_size);
 
@@ -34,16 +32,12 @@ function update_array_size(){
 
 window.onload = update_array_size();
 
-//Running the appropriate algorithm.
 for(var i = 0; i < butts_algos.length; i++){
     butts_algos[i].addEventListener("click", runalgo);
 }
 
 function disable_buttons(){
     for(var i = 0; i < butts_algos.length; i++){
-        butts_algos[i].classList = [];
-        butts_algos[i].classList.add("butt_locked");
-
         butts_algos[i].disabled = true;
         inp_as.disabled = true;
         inp_gen.disabled = true;
