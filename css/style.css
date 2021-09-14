@@ -55,12 +55,12 @@ nav .header_right .nav-heading {
   padding: 3% 0%;
 }
 
-/* nav .header_right .algos {
+nav .header_right .algos {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 16.66667%;
   grid-template-columns: repeat(6, 16.66667%);
-} */
+}
 
 section {
   display: -ms-grid;
